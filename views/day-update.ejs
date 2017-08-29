@@ -1,0 +1,18 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Thanks for the input!</h1>
+
+    <h2>Here's all your responses so far</h2>
+    <% for(var key in responses){ %>
+      <div>
+        So far this day went: <%= responses[key].dayStatus %>
+        <br />
+        <%= responses[key].improvement %> would make it better
+      </div>
+    <% } %>
+
+    <a href='/'> Try again?</a>
+  </body>
+</html>

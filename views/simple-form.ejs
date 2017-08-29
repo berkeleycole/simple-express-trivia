@@ -1,0 +1,34 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Server Form Processing Demo</h1>
+    <form action='/day-update' method='post'>
+      <div>
+        <label>How's your day going?</label>
+        <br />
+        <input type='text' name='dayStatus' />
+      </div>
+
+      <div>
+        <h2>What would make it better</h2>
+        <label>
+          <input type='radio' name='improvement' value='more javascript' />
+          More Javascript
+        </label>
+        <label>
+          <input type='radio' name='improvement' value='surfing' />
+          Surfing
+        </label>
+        <label>
+          <input type='radio' name='improvement' value='caramel corn' />
+          Caramel Corn
+        </label>
+      </div>
+
+      <div>
+        <input type='submit' value='Submit' />
+      </div>
+    </form>
+  </body>
+</html>
