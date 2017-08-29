@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h3>San Diego Trivia</h3>
+        <img src='/images/trivia.png' />
+        <ul>
+            <% console.log(questions) %>
+            <% for(let key in questions) { %>
+            <li>
+                <a href="/trivia/<%= key %>">
+                    <%= questions[key]["question"] %>
+                </a>
+            </li>
+          <% } %>
+        </ul>
+    </body>
+</html>
