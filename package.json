@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "ejs": "^2.5.7",
-    "express": "^4.15.4",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
     "fs": "^0.0.1-security"
   }
 }
